@@ -47,9 +47,9 @@ int showMyArray() {
 
     // Loop thorough the multi-array
     for (iRow = 0; iRow < iRowLen; iRow++){
-        printf("\n--- iRow %d --- \n", iRow +1);
+        printf("\n--- Row %d --- \n", iRow +1);
         for (iColumn = 0; iColumn < iColumnLen; iColumn++) {
-            printf("iColumn[%d], value = %d\n", iColumn, iMultiDimArray[iRow][iColumn]);
+            printf("Column[%d], value = %d\n", iColumn, iMultiDimArray[iRow][iColumn]);
         }
     }
     return 0;
